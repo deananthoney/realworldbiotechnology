@@ -1,0 +1,241 @@
+/**Dean Rose***/
+
+html.body{
+background-color:#fbf9f7;;
+width:100%;
+height:100%;
+}
+
+header{
+margin:0;
+background-color:#FFF;
+width:100%;
+height:114px;
+}
+
+
+#Real-Logo{
+margin: 0 2px 5px;
+z-index:90;
+}
+
+
+
+#nav {
+margin-left: 244px;
+margin-top: -58px;
+}
+
+#nav li {
+font-family:Helvetica Neue;
+font-weight:bold;
+color:#285d7f !important;
+font-size: 14pt;
+text-decoration: none;
+list-style-type: none;
+margin: 0;
+padding: 0 10px;
+display: inline;
+
+}
+
+/**************Child Nav*********/
+
+nav li:last-child{
+background: url('images/banner.png');
+}
+
+
+#nav  a:link {
+text-decoration: none;
+color:#285d7f !important;
+}
+
+#nav ul a:visited {
+text-decoration: none;
+}
+
+#slider{
+background-color:#134869;
+position:relative;
+width:100%;
+height:474px;
+z-index:199;
+}
+
+.bio{
+background:url("images/bio.png") no-repeat;	
+position:relative;
+height:474px;
+
+}
+/*************BODY************/
+#bodytext{
+position:relative;
+background-color:#fbf9f7;
+width:100%;
+height:100%;
+border-top:2px solid #e0c04e;
+color:#005781;
+z-index:199;
+}
+
+
+.whoweare-green{
+position:relative;
+font-family:Helvetica Neue;
+font-size: 13pt;
+color:#005781;
+float:left;
+margin-left: 80px;
+}
+
+.whatwedo-green{
+position:relative;
+font-size: 13pt;
+font-family:Helvetica Neue;
+color:#005781;
+float:left;
+margin-left: 80px;
+}
+
+
+.getinvolved{
+position:relative;
+font-size: 13pt;
+font-family:Helvetica Neue;
+color:#005781;
+float:left;
+margin-left: 80px;
+}
+
+.featured{
+position: relative;
+font-size: 13pt;
+font-family:Helvetica Neue;
+color:#005781;
+}
+
+.featured1{
+position: relative;
+font-size: 13pt;
+font-family:Helvetica Neue;
+color:#005781;
+ margin-left: 87px;
+}
+
+
+
+.lifesciences{
+background:url("images/lifesciences.jpg") no-repeat center #FFF;
+width:239px;
+height:152px;
+border-style: 1px solid #ccc;
+margin-left: 80px;
+margin-top: 163px;
+width: 239px;
+}
+
+
+.featured h3{
+font-size:13pt;
+font-family:Helvetica Neue;
+color:#42b885;
+
+}
+
+#bodytext2 .featured .featured1 .featured2 {
+float:left;
+list-style-type: none;
+font-size: 13pt;
+font-family:Helvetica Neue;
+color:#005781;
+
+
+}
+
+
+.bodytext2{
+position:relative;
+background-color:#fbf9f7;
+width:100%;
+height:766px;
+border-top:2px solid #e0c04e;
+color:#005781;
+z-index:99;
+}
+
+
+#bodytext  .whoweare-green  .whatwedo-green  {
+display:inline;
+list-style-type: none;
+}
+
+
+/*************/
+
+#footer{
+
+background-color:#FFF;
+font-size: 11pt;
+color:#bbc1c6;
+width:100%;
+height: 292px;
+position:absolute;
+bottom:0;
+}
+
+.centerbiotech{
+position:relative;
+font-family:Helvetica Neue;
+color:#bbc1c6;
+float:left;
+margin-left: 80px;
+
+}
+
+
+
+
+.impact{
+position:relative;
+color:#bbc1c6;
+float:left;
+margin-left:47px;
+}
+
+.whatwedo{
+position:relative;
+color:#bbc1c6;
+float:left;
+margin-left:47px;
+}
+
+.whoweare{
+position:relative;
+color:#bbc1c6;
+float:left;
+margin-left:47px;
+}
+.newsandevents{
+position:relative;
+color:#bbc1c6;
+float:left;
+margin-left:47px;
+}
+
+.copyright{
+position:relative;
+font-size: 11pt;
+color:#bbc1c6;
+float:left;
+margin-left: 228px;
+margin-top: -80px;
+
+}
+
+
+#footer .centerbiotech  .impact  .whatwedo .newsandevents{
+float:left;
+list-style-type: none;
+}
